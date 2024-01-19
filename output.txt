@@ -1,0 +1,4 @@
+Current:  1  next:  None
+Current:  1  next:  2
+Current:  2  next:  None
+1 => 1 => 2 => 3
