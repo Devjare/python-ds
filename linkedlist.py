@@ -52,6 +52,14 @@ class LinkedList:
                 else:
                     current = current.nxt
 
+    def __repr__(self):
+        return f"""
+        \rList details:
+        \r\tSize: {self.size},
+        \r\tHead: {self.head.value},
+        \r\tNext: {self.head.nxt},
+        """
+
     def __str__(self):
         list_str = ""
         current = self.head

@@ -9,3 +9,5 @@ ll.insert(4)
 ll.insert_at(2, 5)
 
 print(ll)
+print(str(ll))
+print(repr(ll))
